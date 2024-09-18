@@ -15,10 +15,10 @@ const Me = () => {
             With 3 years of experience as a full-stack developer, I specialize in creating dynamic, responsive web applications using technologies like React, Vue.js, Tailwind CSS, and Next.js. My journey in development has allowed me to work on various projects, from e-commerce websites to system development, where I strive for both design and functionality.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-            I have also gained extensive back-end experience using PHP, Laravel, and Node.js to develop server-side logic and database integration. I'm passionate about delivering high-quality projects and always aim for clean, efficient code.
+            I have also gained extensive back-end experience using PHP, Laravel, and Node.js to develop server-side logic and database integration. I&apos;m passionate about delivering high-quality projects and always aim for clean, efficient code.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-            Currently, I'm expanding my skill set by learning Python and Django, constantly looking for opportunities to grow as a developer. My goal is to integrate my knowledge across the tech stack to create seamless and scalable web experiences.
+            Currently, I&apos;m expanding my skill set by learning Python and Django, constantly looking for opportunities to grow as a developer. My goal is to integrate my knowledge across the tech stack to create seamless and scalable web experiences.
           </p>
         </div>
 

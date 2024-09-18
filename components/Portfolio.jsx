@@ -41,7 +41,7 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 max-w-lg text-gray-300">
-        This is a collection of my personal web development projects, not my client's websites. While it's still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I've created so far.
+          This is a collection of my personal web development projects, not my client&apos;s websites. While it&apos;s still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I&apos;ve created so far.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
