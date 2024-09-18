@@ -12,21 +12,25 @@ const Portfolio = () => {
       id: 1,
       title: "Truck-Booking",
       imageSrc: truckbooking,
+      repoLink: "https://github.com/MillorJ/Truck-Booking-Website" 
     },
     {
       id: 2,
       title: "Local-Eats",
       imageSrc: localeats,
+      repoLink: "https://github.com/MillorJ/Local-Eats---Discover-Cebu-s-Best-Restaurants" 
     },
     {
       id: 3,
       title: "E-Commerce",
       imageSrc: ecommerce,
+      repoLink: "https://github.com/MillorJ/E-commerce-Website" 
     },
     {
       id: 4,
-      title: "Valorant Clone",
+      title: "Valorant Clone", 
       imageSrc: valorant,
+      repoLink: "https://github.com/MillorJ/Valorant-" 
     },
   ];
 
@@ -37,12 +41,12 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 max-w-lg text-gray-300">
-          Explore my portfolio showcasing a range of projects that highlight my expertise in web development. From dynamic web applications to engaging user interfaces, each project reflects my passion for coding and design. Dive into the details of each project to see how I solve real-world problems and create innovative solutions.
+        This is a collection of my personal web development projects, not my client's websites. While it's still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I've created so far.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-          {portfolios.map(({ id, title, imageSrc }) => (
-            <div key={id} className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md transition-transform duration-300 transform hover:scale-105">
+          {portfolios.map(({ id, title, imageSrc, repoLink }) => (
+            <a key={id} href={repoLink} target="_blank" rel="noopener noreferrer" className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md transition-transform duration-300 transform hover:scale-105">
               <Image
                 src={imageSrc}
                 alt={title}
@@ -51,7 +55,7 @@ const Portfolio = () => {
               <h2 className="text-center text-base capitalize my-4 font-light text-gray-100 duration-200 group-hover:underline underline-offset-4 glow-text">
                 {title}
               </h2>
-            </div>
+            </a>
           ))}
         </div>
 
