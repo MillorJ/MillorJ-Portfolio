@@ -12,25 +12,25 @@ const Portfolio = () => {
       id: 1,
       title: "Truck-Booking",
       imageSrc: truckbooking,
-      repoLink: "https://github.com/MillorJ/Truck-Booking-Website" 
+      repoLink: "https://github.com/MillorJ/Truck-Booking-Website"
     },
     {
       id: 2,
       title: "Local-Eats",
       imageSrc: localeats,
-      repoLink: "https://github.com/MillorJ/Local-Eats---Discover-Cebu-s-Best-Restaurants" 
+      repoLink: "https://github.com/MillorJ/Local-Eats---Discover-Cebu-s-Best-Restaurants"
     },
     {
       id: 3,
       title: "E-Commerce",
       imageSrc: ecommerce,
-      repoLink: "https://github.com/MillorJ/E-commerce-Website" 
+      repoLink: "https://github.com/MillorJ/E-commerce-Website"
     },
     {
       id: 4,
-      title: "Valorant Clone", 
+      title: "Valorant Clone",
       imageSrc: valorant,
-      repoLink: "https://github.com/MillorJ/Valorant-" 
+      repoLink: "https://github.com/MillorJ/Valorant-"
     },
   ];
 
@@ -41,12 +41,18 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 max-w-lg text-gray-300">
-          This is a collection of my personal web development projects, not my client&apos;s websites. While it&apos;s still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I&apos;ve created so far.
+          This is a collection of my personal web development projects, not my client&apos;s websites. While it&apos;s still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I&apos;ve created so far. U can visit my github link in all clicking all projects.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, repoLink }) => (
-            <a key={id} href={repoLink} target="_blank" rel="noopener noreferrer" className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md transition-transform duration-300 transform hover:scale-105">
+            <a
+              key={id}
+              href={repoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md transition-transform duration-300 transform hover:scale-105"
+            >
               <Image
                 src={imageSrc}
                 alt={title}
@@ -60,12 +66,17 @@ const Portfolio = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <div className="group flex items-center justify-center my-8 bg-gray-900 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-not-allowed hover:bg-gray-700 transition-colors duration-300">
+          <a
+            href="https://github.com/MillorJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-center my-8 bg-gray-900 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider hover:bg-gray-700 transition-colors duration-300"
+          >
             All Projects
             <span className="ml-2 -rotate-90 duration-100 ease-in group-hover:rotate-0">
               <MdExpandMore size={25} />
             </span>
-          </div>
+          </a>
         </div>
       </div>
     </div>

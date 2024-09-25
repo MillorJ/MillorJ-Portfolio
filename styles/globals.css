@@ -11,21 +11,12 @@
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Apply gradient text effect */
-.text-gradient {
-  background: linear-gradient(to right, #ff007f, #ffb600, #00d2ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Gradient text effect */
-.text-gradient {
-  background: linear-gradient(to right, #ff007f, #ffb600, #00d2ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Gradient text effect */
 .text-gradient {
   background: linear-gradient(to right, #ff007f, #ffb600, #00d2ff);
   -webkit-background-clip: text;
@@ -63,8 +54,6 @@
   opacity: 1;
 }
 
-
-
 .animate-text {
   animation: fadeInOut 4s infinite; /* Adjust duration and iteration count */
 }
@@ -84,17 +73,13 @@
   }
 }
 
-
 /* Button styling */
 .group {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-.group:hover .icon {
-  transform: rotate(0deg);
+  padding: 10px; /* Add some padding */
 }
 
 .group:hover {
@@ -112,13 +97,25 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
-/* Animation for text (if needed) */
-@keyframes animate-text {
-  0% { opacity: 0; transform: translateY(10px); }
-  50% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-10px); }
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Smaller base font size for mobile */
+  }
 
+  .text-gradient {
+    font-size: 2em; /* Responsive size for gradient text */
+  }
+
+  .text-glow {
+    font-size: 1.5em; /* Responsive size for glow text */
+  }
+
+  .group {
+    flex-direction: column; /* Stack buttons vertically */
+    padding: 15px; /* Increase padding for better touch targets */
+  }
+}
 
 /* Button styling */
 .group {
@@ -126,6 +123,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding: 10px; /* Add some padding */
 }
 
 .group:hover {
@@ -145,3 +143,75 @@
   transition: transform 0.3s ease-in-out;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Smaller base font size for mobile */
+  }
+
+  .text-gradient {
+    font-size: 2em; /* Responsive size for gradient text */
+  }
+
+  .text-glow {
+    font-size: 1.5em; /* Responsive size for glow text */
+  }
+
+  .group {
+    flex-direction: column; /* Stack buttons vertically */
+    padding: 15px; /* Increase padding for better touch targets */
+  }
+
+  /* Force full width on mobile */
+  body, html {
+    width: 100vw; /* Use full viewport width */
+    height: 100%; /* Ensure height fills screen */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Make sure all containers are full width */
+  .container, .main-content, .wrapper, .portfolio {
+    width: 100%; /* Ensure full width */
+    max-width: 100%; /* Prevent max-width restrictions */
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove margins */
+  }
+
+  /* Optionally, if using flexbox layouts */
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* Stack flex items vertically */
+    width: 100%; /* Full width for flex container */
+    align-items: center; /* Center flex items */
+  }
+
+  /* Optional: Ensure inner content doesn't overflow */
+  .content {
+    width: 100%; /* Full width for content */
+    max-width: 100%; /* Ensure no content overflow */
+    padding: 0 10px; /* Optional padding for inner content */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+}
+/* globals.css */
+
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body takes full width */
+body {
+  width: 100vw;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Optional: You can set a max-width on main container to make it responsive */
+.max-w-screen-xl {
+  max-width: 100%;
+}
+
+/* Add any other global styles you may need */

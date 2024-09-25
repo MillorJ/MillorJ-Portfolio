@@ -5,20 +5,42 @@ import { MdExpandMore } from "react-icons/md";
 const Me = () => {
   return (
     <div id="me" className="w-full bg-gradient-to-b from-black to-gray-800 text-gray-500">
-      <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold glow-text">
           Me
         </h2>
 
-        <div className="shadow-xl shadow-blue-300 my-8 px-8 bg-gray-900 text-gray-400 rounded-lg">
-          <p className="py-4 max-w-2xl mx-auto">
-            With 3 years of experience as a full-stack developer, I specialize in creating dynamic, responsive web applications using technologies like React, Vue.js, Tailwind CSS, and Next.js. My journey in development has allowed me to work on various projects, from e-commerce websites to system development, where I strive for both design and functionality.
+        <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
+          <strong>Full Stack Developer | Freelancer.com</strong><br />
+          <em>Dates: Ongoing</em><br />
+          <p className="my-4">
+            - Developed dynamic, responsive web applications using React, Vue.js, Tailwind CSS, and Next.js.<br />
+            - Delivered quality projects for various international clients, ensuring seamless design and functionality.<br />
+            - Worked with back-end technologies such as PHP, Laravel, and Node.js to create scalable web applications.
           </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            I have also gained extensive back-end experience using PHP, Laravel, and Node.js to develop server-side logic and database integration. I&apos;m passionate about delivering high-quality projects and always aim for clean, efficient code.
+
+          <strong>Full Stack Developer (Freelance - US Client)</strong><br />
+          <em>Dates: Ongoing</em><br />
+          <p className="my-4">
+            - Provided full-stack development services to US-based client, successfully completing 4 projects with positive testimonials.<br />
+            - Specialized in front-end technologies (React, Vue.js, Tailwind CSS) and back-end systems (PHP, Laravel, Node.js) to deliver efficient solutions.<br />
+            - Built a variety of projects, including:<br />
+            - E-commerce website<br />
+            - Client portfolio<br />
+            - Company portfolio<br />
+            - Real estate website
           </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Currently, I&apos;m expanding my skill set by learning Python and Django, constantly looking for opportunities to grow as a developer. My goal is to integrate my knowledge across the tech stack to create seamless and scalable web experiences.
+
+          <strong>Web Developer | Today's Carolinian</strong><br />
+          <em>Dates: Ongoing</em><br />
+          <p className="my-4">
+            - Contributed to the development and maintenance of the Today's Carolinian project website, improving functionality and user experience.<br />
+            - Worked with modern frameworks like React and Tailwind CSS to enhance the website's performance and design.
+          </p>
+
+          <strong>Ongoing Learning</strong><br />
+          <p className="my-4">
+            - Currently expanding skills with Python and Django to enhance full-stack capabilities.
           </p>
         </div>
 

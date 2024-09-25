@@ -1,3 +1,4 @@
+// HomePage.jsx
 import React, { useEffect, useRef } from "react";
 import mynewme from "../public/assets/mynewme.jpg";
 import { MdExpandMore } from "react-icons/md";
@@ -20,7 +21,7 @@ const HomePage = () => {
           fullStackText.innerHTML = "";
           currentIndex = 0;
         }
-      }, 1000); // Faster interval for quicker appearance
+      }, 1000);
       return () => clearInterval(interval);
     }
   }, []);
@@ -28,16 +29,11 @@ const HomePage = () => {
   return (
     <div id="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-gray-500">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">
-          <Image src={mynewme} alt="me" />
+        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl shadow-lg">
+          <Image src={mynewme} alt="me" className="object-cover" />
         </div>
 
-        <h1
-          className="uppercase font-bold text-gray-100 text-7xl glow-text"
-          ref={textRef}
-        >
-          {/* The glowing text will be managed by JavaScript */}
-        </h1>
+        <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text" ref={textRef}></h1>
 
         <p className="text-gray-300 text-xl max-w-sm mx-auto">
           I have 3 years of experience in full-stack development, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
