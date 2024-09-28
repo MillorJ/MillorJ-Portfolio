@@ -36,7 +36,7 @@ const HomePage = () => {
         <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text" ref={textRef}></h1>
 
         <p className="text-gray-300 text-xl max-w-sm mx-auto">
-          I have 3 years of experience in full-stack development, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
+          I am experienced Full Stack Developer, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
         </p>
 
         <Link href="/#me">
