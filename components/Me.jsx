@@ -31,11 +31,11 @@ const Me = () => {
             - Real estate website
           </p>
 
-          <strong>Web Developer | Today's Carolinian</strong><br />
+          <strong>Web Developer | Today&#39;s Carolinian</strong><br />
           <em>Dates: Ongoing</em><br />
           <p className="my-4">
-            - Contributed to the development and maintenance of the Today's Carolinian project website, improving functionality and user experience.<br />
-            - Worked with modern frameworks like React and Tailwind CSS to enhance the website's performance and design.
+            - Contributed to the development and maintenance of the Today&#39;s Carolinian project website, improving functionality and user experience.<br />
+            - Worked with modern frameworks like React and Tailwind CSS to enhance the website&#39;s performance and design.
           </p>
 
           <strong>Ongoing Learning</strong><br />
