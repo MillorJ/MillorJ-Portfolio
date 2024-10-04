@@ -26,15 +26,25 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div id="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-gray-500">
+    <div id="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-gray-500 relative">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl shadow-lg">
+        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl shadow-lg mb-12">
           <Image src={mynewme} alt="me" className="object-cover" />
         </div>
 
-        <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text text-center md:text-left" ref={textRef}></h1>
+        {/* Positioning the text absolutely and keeping it in a fixed place */}
+        <h1
+          className="uppercase font-bold text-gray-100 text-7xl glow-text text-center absolute"
+          style={{
+            top: "50%", // Keep it centered
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+          ref={textRef}
+        ></h1>
 
-        <p className="text-gray-300 text-lg max-w-md mx-auto">
+        {/* Adjusting margin-top for the paragraph to create space below the h1 */}
+        <p className="text-gray-300 text-lg max-w-md mx-auto mt-48"> {/* Adjusted margin-top for the paragraph */}
           I am an experienced Full Stack Developer, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
         </p>
 

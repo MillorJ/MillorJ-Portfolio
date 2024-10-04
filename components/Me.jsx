@@ -5,7 +5,7 @@ import { MdExpandMore } from "react-icons/md";
 const Me = () => {
   return (
     <div id="me" className="w-full bg-gradient-to-b from-black to-gray-800 text-gray-500">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-16 text-center md:text-left">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-16 text-center md:text-left flex flex-col justify-center" style={{ minHeight: '80vh' }}>
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold glow-text">
           Me
         </h2>
