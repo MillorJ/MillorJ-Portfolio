@@ -1,4 +1,3 @@
-// HomePage.jsx
 import React, { useEffect, useRef } from "react";
 import mynewme from "../public/assets/mynewme.jpg";
 import { MdExpandMore } from "react-icons/md";
@@ -33,10 +32,10 @@ const HomePage = () => {
           <Image src={mynewme} alt="me" className="object-cover" />
         </div>
 
-        <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text" ref={textRef}></h1>
+        <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text text-center md:text-left" ref={textRef}></h1>
 
-        <p className="text-gray-300 text-xl max-w-sm mx-auto">
-          I am experienced Full Stack Developer, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
+        <p className="text-gray-300 text-lg max-w-md mx-auto">
+          I am an experienced Full Stack Developer, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
         </p>
 
         <Link href="/#me">

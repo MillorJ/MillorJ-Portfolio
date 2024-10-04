@@ -25,11 +25,11 @@ body {
 
 /* Glow effect for text */
 .text-glow {
-  color: #fff; /* Fallback color */
+  color: #fff;
   position: relative;
   display: inline-block;
   transition: color 0.3s ease;
-  font-weight: bold; /* Optional for better visibility */
+  font-weight: bold;
 }
 
 .text-glow::before {
@@ -47,7 +47,7 @@ body {
 }
 
 .text-glow:hover {
-  color: #ff007f; /* Change this to the color you want on hover */
+  color: #ff007f;
 }
 
 .text-glow:hover::before {
@@ -55,7 +55,7 @@ body {
 }
 
 .animate-text {
-  animation: fadeInOut 4s infinite; /* Adjust duration and iteration count */
+  animation: fadeInOut 4s infinite;
 }
 
 @keyframes fadeInOut {
@@ -79,11 +79,11 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 10px; /* Add some padding */
+  padding: 10px;
 }
 
 .group:hover {
-  background-color: #1f2937; /* Dark gray similar to navbar */
+  background-color: #1f2937;
   transition: background-color 0.3s ease;
 }
 
@@ -100,101 +100,52 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   html {
-    font-size: 14px; /* Smaller base font size for mobile */
+    font-size: 14px;
   }
 
   .text-gradient {
-    font-size: 2em; /* Responsive size for gradient text */
+    font-size: 2em;
   }
 
   .text-glow {
-    font-size: 1.5em; /* Responsive size for glow text */
+    font-size: 1.5em;
   }
 
   .group {
-    flex-direction: column; /* Stack buttons vertically */
-    padding: 15px; /* Increase padding for better touch targets */
-  }
-}
-
-/* Button styling */
-.group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 10px; /* Add some padding */
-}
-
-.group:hover {
-  background-color: #1f2937; /* Dark gray similar to navbar */
-  transition: background-color 0.3s ease;
-}
-
-.group:hover .icon {
-  transform: rotate(0deg);
-}
-
-.icon {
-  transition: transform 0.1s ease-in;
-}
-
-.transition-transform {
-  transition: transform 0.3s ease-in-out;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  html {
-    font-size: 14px; /* Smaller base font size for mobile */
-  }
-
-  .text-gradient {
-    font-size: 2em; /* Responsive size for gradient text */
-  }
-
-  .text-glow {
-    font-size: 1.5em; /* Responsive size for glow text */
-  }
-
-  .group {
-    flex-direction: column; /* Stack buttons vertically */
-    padding: 15px; /* Increase padding for better touch targets */
+    flex-direction: column;
+    padding: 15px;
   }
 
   /* Force full width on mobile */
   body, html {
-    width: 100vw; /* Use full viewport width */
-    height: 100%; /* Ensure height fills screen */
+    width: 100vw;
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 
-  /* Make sure all containers are full width */
   .container, .main-content, .wrapper, .portfolio {
-    width: 100%; /* Ensure full width */
-    max-width: 100%; /* Prevent max-width restrictions */
-    padding: 0; /* Remove extra padding */
-    margin: 0; /* Remove margins */
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
-  /* Optionally, if using flexbox layouts */
   .flex-container {
     display: flex;
-    flex-direction: column; /* Stack flex items vertically */
-    width: 100%; /* Full width for flex container */
-    align-items: center; /* Center flex items */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
-  /* Optional: Ensure inner content doesn't overflow */
   .content {
-    width: 100%; /* Full width for content */
-    max-width: 100%; /* Ensure no content overflow */
-    padding: 0 10px; /* Optional padding for inner content */
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 }
-/* globals.css */
 
 /* Reset default margins and paddings */
 * {
@@ -206,12 +157,12 @@ body {
 /* Ensure body takes full width */
 body {
   width: 100vw;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
 }
 
-/* Optional: You can set a max-width on main container to make it responsive */
+/* Optional: Set max-width on main container for responsiveness */
 .max-w-screen-xl {
   max-width: 100%;
 }
 
-/* Add any other global styles you may need */
+/* Additional global styles */
