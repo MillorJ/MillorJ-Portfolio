@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import workspace from "../public/assets/workspace.jpg";
+import workspace from "../public/assets/workspacev2.jpg";
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { MdExpandMore } from "react-icons/md";
 
