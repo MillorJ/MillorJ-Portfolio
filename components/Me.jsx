@@ -11,12 +11,21 @@ const Me = () => {
         </h2>
 
         <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
-          <strong>Full Stack Developer | Freelancer.com</strong><br />
+        <strong>Full Stack Developer | Freelancer.com</strong><br />
           <em>Dates: Ongoing</em><br />
           <p className="my-4">
             - Developed dynamic, responsive web applications using React, Vue.js, Tailwind CSS, and Next.js.<br />
             - Delivered quality projects for various international clients, ensuring seamless design and functionality.<br />
             - Worked with back-end technologies such as PHP, Laravel, and Node.js to create scalable web applications.
+          </p>
+          <strong>CEO & Founder | NovaX Tech Solutions</strong><br />
+          <em>Dates: Ongoing</em><br />
+          <p className="my-4">
+            - Will work also as a Full Stack Developer and Project Manager <br />
+            - Create and execute long-term strategic goals<br />
+            - Build and maintain a strong executive team.<br />
+            - Team Leadership <br />
+            - Decision Making <br />
           </p>
 
           <strong>Full Stack Developer (Freelance - US Client)</strong><br />
