@@ -53,10 +53,10 @@ const Me = () => {
 
           <strong>Web Developer | Today&#39;s Carolinian</strong><br />
           <em>Dates: Present</em><br />
-          <p className="my-4">
-            - Contributed to the development and maintenance of the Today&#39;s Carolinian project website, improving functionality and user experience.<br />
-            - Worked with modern frameworks like React and Tailwind CSS to enhance the website&#39;s performance and design.
-          </p>
+          <p className="py-4 max-w-lg text-gray-300">
+          This portfolio showcases my personal web development projects, designed to hone my skills and creativity. Each project reflects my passion for coding and building functional, visually appealing applications. While these aren't client-based projects, they represent my commitment to continuous learning and experimentation. Feel free to explore each project and check out the associated GitHub repositories for a deeper dive into my work. I look forward to updating this portfolio with more exciting projects soon!
+</p>
+
 
          
         </div>
