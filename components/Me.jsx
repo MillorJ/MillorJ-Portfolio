@@ -11,15 +11,26 @@ const Me = () => {
         </h2>
 
         <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
-        <strong>Full Stack Developer | Freelancer.com</strong><br />
-          <em>Dates: Ongoing</em><br />
+          <strong>Full Stack Software Engineer | AiBuildiQ (US Company)</strong><br />
+          <em>Dates: Present</em><br />
+          <p className="my-4">
+            - Working as a Full Stack Software Engineer to develop and maintain scalable web applications.<br />
+            - Leveraging modern frameworks such as React, Next.js, and Tailwind CSS for front-end development.<br />
+            - Building robust back-end solutions using Node.js and Python, along with integrating various APIs for enhanced functionality.<br />
+            - Implementing back-end frameworks such as Django and Flask to build scalable and efficient systems.<br />
+            - Collaborating with cross-functional teams to deliver high-quality software solutions.<br />
+          </p>
+
+          <strong>Full Stack Developer | Freelancer.com</strong><br />
+          <em>Dates: 5 months</em><br />
           <p className="my-4">
             - Developed dynamic, responsive web applications using React, Vue.js, Tailwind CSS, and Next.js.<br />
             - Delivered quality projects for various international clients, ensuring seamless design and functionality.<br />
             - Worked with back-end technologies such as PHP, Laravel, and Node.js to create scalable web applications.
           </p>
+          
           <strong>CEO & Founder | NovaX Tech Solutions</strong><br />
-          <em>Dates: Ongoing</em><br />
+          <em>Dates: Present</em><br />
           <p className="my-4">
             - Will work also as a Full Stack Developer and Project Manager <br />
             - Create and execute long-term strategic goals<br />
@@ -29,7 +40,7 @@ const Me = () => {
           </p>
 
           <strong>Full Stack Developer (Freelance - US Client)</strong><br />
-          <em>Dates: Ongoing</em><br />
+          <em>Dates: 6 months</em><br />
           <p className="my-4">
             - Provided full-stack development services to US-based client, successfully completing 4 projects with positive testimonials.<br />
             - Specialized in front-end technologies (React, Vue.js, Tailwind CSS) and back-end systems (PHP, Laravel, Node.js) to deliver efficient solutions.<br />
@@ -41,16 +52,13 @@ const Me = () => {
           </p>
 
           <strong>Web Developer | Today&#39;s Carolinian</strong><br />
-          <em>Dates: Ongoing</em><br />
+          <em>Dates: Present</em><br />
           <p className="my-4">
             - Contributed to the development and maintenance of the Today&#39;s Carolinian project website, improving functionality and user experience.<br />
             - Worked with modern frameworks like React and Tailwind CSS to enhance the website&#39;s performance and design.
           </p>
 
-          <strong>Ongoing Learning</strong><br />
-          <p className="my-4">
-            - Currently expanding skills with Python and Django to enhance full-stack capabilities.
-          </p>
+         
         </div>
 
         <div className="flex items-center justify-center gap-10">

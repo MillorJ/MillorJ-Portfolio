@@ -10,7 +10,7 @@ const HomePage = () => {
   useEffect(() => {
     const fullStackText = textRef.current;
     if (fullStackText) {
-      const words = ["Full", "Stack", "Developer"];
+      const words = ["Full", "Stack", "Software", "Engineer"];
       let currentIndex = 0;
       const interval = setInterval(() => {
         if (currentIndex < words.length) {
@@ -35,8 +35,7 @@ const HomePage = () => {
         <h1 className="uppercase font-bold text-gray-100 text-7xl glow-text text-center md:text-left" ref={textRef}></h1>
 
         <p className="text-gray-300 text-lg max-w-md mx-auto">
-          I am an experienced Full Stack Developer, specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.
-        </p>
+        I am a Full Stack Software Engineer specializing in building and designing dynamic web applications. I currently enjoy working with technologies like React.js, Vue.js, Tailwind CSS, Next.js, Laravel, Node.js, and PHP, while also learning Python and Django to further enhance my skills.        </p>
 
         <Link href="/#me">
           <div className="group flex items-center justify-center my-8 bg-gray-900 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:bg-gray-700 duration-300">

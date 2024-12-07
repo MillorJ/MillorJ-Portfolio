@@ -41,8 +41,8 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 max-w-lg text-gray-300">
-          This is a collection of my personal web development projects, not my client&apos;s websites. While it&apos;s still a work in progress, I hope these projects give you a glimpse into my skills and passion for coding and design. I plan to update this portfolio soon with more work, but for now, I appreciate you taking the time to explore what I&apos;ve created so far. U can visit my github link in all clicking all projects.
-        </p>
+  This portfolio showcases my personal web development projects, designed to hone my skills and creativity. Each project reflects my passion for coding and building functional, visually appealing applications. While these aren't client-based projects, they represent my commitment to continuous learning and experimentation. Feel free to explore each project and check out the associated GitHub repositories for a deeper dive into my work. I look forward to updating this portfolio with more exciting projects soon!
+</p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, repoLink }) => (
