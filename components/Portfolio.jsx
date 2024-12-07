@@ -12,25 +12,25 @@ const Portfolio = () => {
       id: 1,
       title: "Truck-Booking",
       imageSrc: truckbooking,
-      repoLink: "https://github.com/MillorJ/Truck-Booking-Website"
+      repoLink: "https://github.com/MillorJ/Truck-Booking-Website",
     },
     {
       id: 2,
       title: "Local-Eats",
       imageSrc: localeats,
-      repoLink: "https://github.com/MillorJ/Local-Eats---Discover-Cebu-s-Best-Restaurants"
+      repoLink: "https://github.com/MillorJ/Local-Eats---Discover-Cebu-s-Best-Restaurants",
     },
     {
       id: 3,
       title: "E-Commerce",
       imageSrc: ecommerce,
-      repoLink: "https://github.com/MillorJ/E-commerce-Website"
+      repoLink: "https://github.com/MillorJ/E-commerce-Website",
     },
     {
       id: 4,
       title: "Valorant Clone",
       imageSrc: valorant,
-      repoLink: "https://github.com/MillorJ/Valorant-"
+      repoLink: "https://github.com/MillorJ/Valorant-",
     },
   ];
 
@@ -41,8 +41,13 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <p className="py-4 max-w-lg text-gray-300">
-  This portfolio showcases my personal web development projects, designed to hone my skills and creativity. Each project reflects my passion for coding and building functional, visually appealing applications. While these aren't client-based projects, they represent my commitment to continuous learning and experimentation. Feel free to explore each project and check out the associated GitHub repositories for a deeper dive into my work. I look forward to updating this portfolio with more exciting projects soon!
-</p>
+          This portfolio showcases my personal web development projects, designed to hone my skills
+          and creativity. Each project reflects my passion for coding and building functional,
+          visually appealing applications. While these aren&apos;t client-based projects, they
+          represent my commitment to continuous learning and experimentation. Feel free to explore
+          each project and check out the associated GitHub repositories for a deeper dive into my
+          work. I look forward to updating this portfolio with more exciting projects soon!
+        </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, repoLink }) => (
