@@ -12,25 +12,50 @@ const Me = () => {
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold glow-text">
           Me
         </h2>
-              <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
-        <strong>Full Stack Software Engineer | AiBuildiQ (US Company)</strong>
-        <br />
-        <em>Dates: Present</em>
-        <br />
-        <p className="my-4">
-          - Developed new websites for AiBuildiQ.
+
+        <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
+          <strong>Lead Full Stack Software Engineer | Rocket Real Estate Solution</strong>
           <br />
-          - Spearheaded the development and deployment of full-stack solutions to streamline business operations, leveraging modern technologies to improve scalability and performance.
+          <em>Feb 2025 - Present · 1 mo</em>
           <br />
-          - Designed and implemented a broker-centric framework, integrating Gemini and Google product APIs to enhance operational efficiency and user experience.
+          <p className="my-4">
+            - Blockchain development
+            <br />
+            - Design responsive and intuitive Next.js UIs for seamless payment experiences.
+            <br />
+            - Build robust RESTful APIs and WebSocket services using Golang.
+          </p>
+
+          <strong>Full Stack Software Engineer | Rocket Real Estate Solution</strong>
           <br />
-          - Developed and maintained responsive front-end interfaces using Next.js, ensuring high-quality, user-friendly web applications.
+          <em>Jan 2025 - Present · 2 mos</em>
           <br />
-          - Implemented a robust FastAPI backend to power the brokers' dashboard, providing efficient data handling and seamless API integrations.
+          <p className="my-4">
+            - Blockchain development
+            <br />
+            - Design responsive and intuitive Next.js UIs for seamless payment experiences.
+            <br />
+            - Build robust RESTful APIs and WebSocket services using Golang.
+          </p>
+
+          <strong>Full Stack Software Engineer | AiBuildiQ (US Company)</strong>
           <br />
-          - Collaborated cross-functionally with stakeholders and team members to align technical efforts with company goals and deliver seamless digital solutions.
+          <em>Dates: Present</em>
           <br />
-        </p>
+          <p className="my-4">
+            - Developed new websites for AiBuildiQ.
+            <br />
+            - Spearheaded the development and deployment of full-stack solutions to streamline business operations, leveraging modern technologies to improve scalability and performance.
+            <br />
+            - Designed and implemented a broker-centric framework, integrating Gemini and Google product APIs to enhance operational efficiency and user experience.
+            <br />
+            - Developed and maintained responsive front-end interfaces using Next.js, ensuring high-quality, user-friendly web applications.
+            <br />
+            - Implemented a robust FastAPI backend to power the brokers' dashboard, providing efficient data handling and seamless API integrations.
+            <br />
+            - Collaborated cross-functionally with stakeholders and team members to align technical efforts with company goals and deliver seamless digital solutions.
+            <br />
+          </p>
 
           <strong>Full Stack Developer | Freelancer.com</strong>
           <br />
@@ -95,26 +120,6 @@ const Me = () => {
             deeper dive into my work. I look forward to updating this portfolio with more exciting
             projects soon!
           </p>
-        </div>
-
-        <div className="flex items-center justify-center gap-10">
-          <Link href="/resume.pdf" download={true}>
-            <div className="group flex items-center justify-center my-8 bg-gray-900 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:bg-gray-700 duration-300">
-              Resume
-              <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
-                <MdExpandMore size={25} />
-              </span>
-            </div>
-          </Link>
-
-          <Link href="/#portfolio">
-            <div className="group flex items-center justify-center my-8 bg-gray-900 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:bg-gray-700 duration-300">
-              My Portfolio
-              <span className="-rotate-90 duration-100 ease-in group-hover:-rotate-180">
-                <MdExpandMore size={25} />
-              </span>
-            </div>
-          </Link>
         </div>
       </div>
     </div>
