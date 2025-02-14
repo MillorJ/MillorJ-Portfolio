@@ -12,28 +12,25 @@ const Me = () => {
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold glow-text">
           Me
         </h2>
-
-        <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
-          <strong>Full Stack Software Engineer | AiBuildiQ (US Company)</strong>
+              <div className="shadow-xl shadow-blue-300 my-8 px-4 sm:px-8 bg-gray-900 text-gray-400 rounded-lg">
+        <strong>Full Stack Software Engineer | AiBuildiQ (US Company)</strong>
+        <br />
+        <em>Dates: Present</em>
+        <br />
+        <p className="my-4">
+          - Developed new websites for AiBuildiQ.
           <br />
-          <em>Dates: Present</em>
+          - Spearheaded the development and deployment of full-stack solutions to streamline business operations, leveraging modern technologies to improve scalability and performance.
           <br />
-          <p className="my-4">
-            - Working as a Full Stack Software Engineer to develop and maintain scalable web
-            applications.
-            <br />
-            - Leveraging modern frameworks such as React, Next.js, and Tailwind CSS for front-end
-            development.
-            <br />
-            - Building robust back-end solutions using Node.js and Python, along with integrating
-            various APIs for enhanced functionality.
-            <br />
-            - Implementing back-end frameworks such as Django and Flask to build scalable and
-            efficient systems.
-            <br />
-            - Collaborating with cross-functional teams to deliver high-quality software solutions.
-            <br />
-          </p>
+          - Designed and implemented a broker-centric framework, integrating Gemini and Google product APIs to enhance operational efficiency and user experience.
+          <br />
+          - Developed and maintained responsive front-end interfaces using Next.js, ensuring high-quality, user-friendly web applications.
+          <br />
+          - Implemented a robust FastAPI backend to power the brokers' dashboard, providing efficient data handling and seamless API integrations.
+          <br />
+          - Collaborated cross-functionally with stakeholders and team members to align technical efforts with company goals and deliver seamless digital solutions.
+          <br />
+        </p>
 
           <strong>Full Stack Developer | Freelancer.com</strong>
           <br />
